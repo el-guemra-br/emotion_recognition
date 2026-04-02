@@ -1,3 +1,16 @@
+Metadata-Version: 2.4
+Name: emotion-recognition
+Version: 0.1.0
+Summary: Real-time facial emotion recognition from a webcam feed.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-python>=4.9.0.80
+Requires-Dist: fer>=22.5.1
+Provides-Extra: mtcnn
+Requires-Dist: mtcnn>=0.1.1; extra == "mtcnn"
+Dynamic: license-file
+
 # Emotion Recognition
 
 Real-time facial emotion recognition from a webcam feed, packaged as a small Python application with a clean CLI entry point.

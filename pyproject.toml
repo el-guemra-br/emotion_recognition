@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emotion-recognition"
+version = "0.1.0"
+description = "Real-time facial emotion recognition from a webcam feed."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "opencv-python>=4.9.0.80",
+    "fer>=22.5.1",
+]
+
+[project.optional-dependencies]
+mtcnn = ["mtcnn>=0.1.1"]
+
+[project.scripts]
+emotion-recognition = "emotion_recognition.app:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

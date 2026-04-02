@@ -1,0 +1,2 @@
+[console_scripts]
+emotion-recognition = emotion_recognition.app:main

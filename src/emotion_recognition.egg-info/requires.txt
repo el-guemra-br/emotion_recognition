@@ -1,2 +1,5 @@
 opencv-python>=4.9.0.80
 fer>=22.5.1
+
+[mtcnn]
+mtcnn>=0.1.1

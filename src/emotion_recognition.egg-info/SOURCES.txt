@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/emotion_recognition/__init__.py
+src/emotion_recognition/__main__.py
+src/emotion_recognition/app.py
+src/emotion_recognition.egg-info/PKG-INFO
+src/emotion_recognition.egg-info/SOURCES.txt
+src/emotion_recognition.egg-info/dependency_links.txt
+src/emotion_recognition.egg-info/entry_points.txt
+src/emotion_recognition.egg-info/requires.txt
+src/emotion_recognition.egg-info/top_level.txt
